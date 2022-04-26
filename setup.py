@@ -1,10 +1,10 @@
 from setuptools import setup
 
-setup(name='dh-poetry',
-      version='0.2.0',
+setup(name='dh-poetry-cypherpunkdev',
+      version='0.2.4',
       description='Shim between dh-virtualenv and poetry',
-      url='http://github.com/maikelwever/dh-poetry',
-      author='Maikel Wever',
+      url='https://github.com/CypherpunkDev/dh-poetry',
+      author='CypherpunkDev',
       author_email='maikelwever@gmail.com',
       license='MIT',
       zip_safe=False,
