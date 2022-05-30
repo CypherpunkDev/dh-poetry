@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='dh-poetry-cypherpunkdev',
-      version='0.2.4',
+      version='0.2.5',
       description='Shim between dh-virtualenv and poetry',
       url='https://github.com/CypherpunkDev/dh-poetry',
       author='CypherpunkDev',

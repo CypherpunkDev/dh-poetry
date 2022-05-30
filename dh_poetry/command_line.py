@@ -62,7 +62,7 @@ def main():
         pip_path = os.path.join(bin_dir, 'pip3')
 
     #poetry_path = os.path.join(bin_dir, 'poetry')
-    poetry_path = '/home/user/.poetry/bin/poetry'
+    poetry_path = '/home/user/.local/bin/poetry'
     assert os.path.isfile(pip_path), "Can't find pip: %s" % pip_path
     assert os.path.isfile(poetry_path), "Can't find poetry: %s" % poetry_path
     # Setup environment variables
